@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../binTobcd.srcs/sources_1/new/cpt_mod4.vhd" \
+"../../../../binTobcd.srcs/sources_1/new/fsm_bin2bcd.vhd" \
+"../../../../binTobcd.srcs/sources_1/new/gene_1kHz.vhd" \
+"../../../../binTobcd.srcs/sources_1/new/hex2seg_dp.vhd" \
+"../../../../binTobcd.srcs/sources_1/new/mux2_4bits.vhd" \
+"../../../../binTobcd.srcs/sources_1/new/top_bin2bcd.vhd" \
+"../../../../binTobcd.srcs/sim_1/new/bin2bcd_simu.vhd" \
+
+# Do not sort compile order
+nosort

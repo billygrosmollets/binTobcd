@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/billy/Documents/binTobcd/binTobcd.srcs/sources_1/new/hex2seg_dp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hex2seg_dp'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/billy/Documents/binTobcd/binTobcd.srcs/sources_1/new/top_bin2bcd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top_bin2bcd'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/billy/Documents/binTobcd/binTobcd.srcs/sim_1/new/bin2bcd_simu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_top_bin2bcd'

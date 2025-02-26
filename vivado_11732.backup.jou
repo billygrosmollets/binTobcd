@@ -1,0 +1,76 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Dec 23 15:19:09 2024
+# Process ID         : 11732
+# Current directory  : C:/Users/billy/Documents/binTobcd
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent10644 C:\Users\billy\Documents\binTobcd\binTobcd.xpr
+# Log file           : C:/Users/billy/Documents/binTobcd/vivado.log
+# Journal file       : C:/Users/billy/Documents/binTobcd\vivado.jou
+# Running On         : billy
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-12500H
+# CPU Frequency      : 3110 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 16782 MB
+# Swap memory        : 6979 MB
+# Total Virtual      : 23761 MB
+# Available Virtual  : 8515 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/billy/Documents/binTobcd/binTobcd.xpr
+upgrade_project -migrate_output_products
+update_compile_order -fileset sources_1
+file mkdir C:/Users/billy/Documents/binTobcd/binTobcd.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/billy/Documents/binTobcd/binTobcd.srcs/sim_1/new/bin2bcd_simu.vhd w ]
+add_files -fileset sim_1 C:/Users/billy/Documents/binTobcd/binTobcd.srcs/sim_1/new/bin2bcd_simu.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source tb_top_bin2bcd.tcl
+run 10 ms
+close_sim
+launch_simulation
+source tb_top_bin2bcd.tcl
+run 10 ms
+close_sim
+launch_simulation
+source tb_top_bin2bcd.tcl
+run 5 ms
+close_sim
+launch_simulation
+source tb_top_bin2bcd.tcl
+run 5 ms
+relaunch_sim
+relaunch_sim
+run 5 ms
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_sim
+launch_simulation
+source tb_top_bin2bcd.tcl
+relaunch_sim
+run 5 ms
+relaunch_sim
+run 5 ms
+close_sim
+launch_simulation
+source tb_top_bin2bcd.tcl
+run 5 ms
+run 5 ms
+close_sim
+launch_simulation
+refresh_design
+launch_simulation
+source tb_top_bin2bcd.tcl
+run 5 ms
+relaunch_sim
+run 5 ms
+run 5 ms
+run 5 ms
+close_sim
